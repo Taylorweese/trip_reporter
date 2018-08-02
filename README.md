@@ -1,4 +1,5 @@
 Trip Reporter
+
 The goal of this project was to create a program that accepts a text input file containing various driving records and returns a summarization of all the drivers and their relative trips.  I chose to make a Driver object the primary piece of this project, creating new instances of the Driver class with each new "Driver" line of the input file. I then incrementally add trip information to each driver when their name was mentioned in a specific trip input line.  Initially, I chose to run the program with only the Driver class but refactored to include a Trip class.  While the Trip class was not entirely necessary, I decided to include it so the final output could easily be refactored to include information such as a Driver's total number of trips, a driver's longest trip, fastest trip, etc.  I chose to store each Driver inside a class variable array so I could easily loop through all drivers at the end.  I understand that class variables are not considered good practice when applied in Rails, so this specific piece would likely need changed if the project were to be implemented in Rails in the future.  
 
 

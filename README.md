@@ -13,7 +13,7 @@ To run the tests, cd into the spec folder and run the rspec command on the test 
 # **Usage**
 This script accepts input from the command line. To run the Trip Reporter, add the txt file into the project then run the reporter.rb file with the name of the input txt file immediately following on the command line. 
 
-# Example usage from the command line (assuming txt added to lib folder): 
+### Example usage from the command line (assuming txt added to lib folder): 
 ruby reporter.rb 'yourfilename'.txt
 
 # Problem Statement 
